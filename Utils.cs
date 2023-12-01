@@ -4,7 +4,7 @@
     {
         public static List<string> GetInput(int day, bool test)
         {
-            string[] textFile = test == false ? File.ReadAllLines($"../../../Input/{day}.txt") : File.ReadAllLines($"../../../Input/{day}.txt");
+            string[] textFile = test == false ? File.ReadAllLines($"../../../Input/{day}.txt") : File.ReadAllLines($"../../../Input/{day}_test.txt");
             List<string> input = new(textFile);
 
             return input;
