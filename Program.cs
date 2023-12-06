@@ -10,10 +10,10 @@ public class Program
 {
     public static void Main()
     {
-        List<string> input = GetInput(5, false);
+        List<string> input = GetInput(6, false);
 
-        //Day5.Part1(input);
-        Day5.Part2(input);
+        //Day6.Part1(input);
+        Day6.Part2(input);
 
         Console.ReadKey();
     }
